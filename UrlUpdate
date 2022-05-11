@@ -58,7 +58,7 @@
   ],
   "Networks": [
     {
-      "Name": "VIVO PROXY",
+      "Name": "VIVO PROXY 1",
       "TYPE": "premium",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
