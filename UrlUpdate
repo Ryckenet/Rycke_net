@@ -58,13 +58,13 @@
   ],
   "Networks": [
     {
-      "Name": "VIVO Proxy 1",
+      "Name": "VIVO Proxy",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
-      "ProxyPort": "80;8080;5454",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
       "Info": "Proxy"
     },
     {
