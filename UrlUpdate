@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
@@ -58,18 +58,17 @@
   ],
   "Networks": [
     {
-      "Name": "VIVO 1",
-      "TYPE": "premium",
+      "Name": "VIVO Proxy",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
-      "ProxyPort": "80",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80;8080;5454",
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO 2",
+      "Name": "VIVO Tls ",
       "TYPE": "premium",    
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
