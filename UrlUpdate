@@ -1,7 +1,7 @@
 {
   "Version": "1.0.1",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
-  "UrlUpdate": "https://github.com/Ryckenet/Rycke_net/blob/6d9f7e605aa5fd86995ff0304b1645abe8f31190/UrlUpdate",
+  "UrlUpdate": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
   "EmailFeedback": "",
   "UrlContato": "https://wa.me/qr/I6S2DIVJFQVIF1",
@@ -20,7 +20,7 @@
 	{
       "Porta": "7296"
     },
-	{const/4 p0,
+	{
       "Porta": "7297"
     },
 	{
@@ -55,42 +55,34 @@
       "PASS": ""
     },
  
-	{
-      "Name": "SUPORTE | PLUS",
-      "TYPE": "free",
-      "FLAG": "br.png",
-      "ServerIP": "ryckecnet.tk",
-      "CheckUser": ".",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "emergencia",
-      "PASS": "1234"
-    }
   ],
   "Networks": [
     {
       "Name": "VIVO PROXY",
+      "TYPE": "premium",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
+      "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.6.80",
-      "ProxyPort": "80,8080,5454",
+      "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO TLS 02",
+      "Name": "VIVO TLS",
+      "TYPE": "premium",    
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
-      "ProxyPort": "80,8080,5454",
+      "ProxyPort": "",
       "Info": "Tlsws"
-    
     },
+    
     {
-      "Name": "TIM TLS",
+      "Name": "TIM ",
+      "TYPE": "premium",
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
