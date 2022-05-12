@@ -93,7 +93,7 @@
     },
 
      {
-     "Name": "CLARO 1 ",
+     "Name": "CLARO",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host:ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
