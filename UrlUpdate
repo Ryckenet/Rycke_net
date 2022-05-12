@@ -90,7 +90,8 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    }
+    },
+
      {
      "Name": "CLARO 1 ",
       "FLAG": "claro",
@@ -100,6 +101,6 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
-      }
+      },
   ]
 }
