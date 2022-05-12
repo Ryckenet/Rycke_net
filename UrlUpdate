@@ -92,9 +92,9 @@
       "Info": "Tlsws"
     }
      {
-     "Name": "CLARO ",
+     "Name": "CLARO 1 ",
       "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1\ryckecnet.tk\nUpgrade: ws\n\n",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host:ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
