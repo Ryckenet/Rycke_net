@@ -92,13 +92,13 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO",
+      "Name": "CLARO ok",
       "TYPE": "premium",
-      "FLAG": "CLARO",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost:ryckecnet.tk\nUpgrade: ws\n\n",
+      "FLAG": "claro",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "199.60.103.228",
-      "ProxyIP": "199.60.103.228",
+      "TlsIP": "",
+      "ProxyIP": "no.descomplica.com.br",
       "ProxyPort": "443",
       "Info": "Tlsws"
     }
