@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
@@ -89,6 +89,17 @@
       "TlsIP": "104.16.19.94",
       "ProxyIP": "",
       "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO ",
+      "TYPE": "premium",
+      "FLAG": "CLARO",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: seuhost[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "",
+      "ProxyIP": "no.descomplica.com.br",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     }
   ]
