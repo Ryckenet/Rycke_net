@@ -99,7 +99,7 @@
       "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "",
       "ProxyIP": "no.descomplica.com.br",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
     }
   ]
