@@ -6,7 +6,7 @@
   "EmailFeedback": "",
   "UrlContato": "https://wa.me/qr/I6S2DIVJFQVIF1",
   "UrlTermos": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/termos.html",
-  "CheckUser": "http://2804:5364:3200:3:3:3:27ed:b7a6:5454/checkUser",
+  "CheckUser": "true",
   "Udp": [
     {
       "Porta": "7300"
@@ -92,7 +92,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO",
+      "Name": "CLARO 1",
       "TYPE": "premium",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
