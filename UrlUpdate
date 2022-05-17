@@ -103,10 +103,10 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO E TIM TESTE",
+      "Name": "VIVO E TIM TESTE 1",
       "TYPE": "premium",
       "FLAG": "br",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://bobcontents.bennuapp.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "bobcontents.bennuapp.com.br",
       "TlsIP": "104.16.133.83",
       "ProxyIP": "",
