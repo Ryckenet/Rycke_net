@@ -102,16 +102,6 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-    {
-      "Name": "VIVO E TIM TESTE",
-      "TYPE": "premium",
-      "FLAG": "br",
-      "Payload": "GET ws://bobcontents.bennuapp.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "bobcontents.bennuapp.com.br",
-      "TlsIP": "104.16.133.83",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
     }
   ]
 }
