@@ -68,6 +68,7 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+
     {
       "Name": "VIVO 2",
       "TYPE": "premium",    
@@ -91,6 +92,7 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
+
     {
       "Name": "CLARO",
       "TYPE": "premium",
@@ -101,7 +103,6 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
-    },
     }
   ]
 }
