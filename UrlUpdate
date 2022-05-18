@@ -125,7 +125,8 @@
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
-    }
     },
+
+    }
   ]
 }
