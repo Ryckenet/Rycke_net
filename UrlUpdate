@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
@@ -102,7 +102,7 @@
       "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Tlsws""
+      "Info": "Tlsws"
     },
     
     {
