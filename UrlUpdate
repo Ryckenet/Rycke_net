@@ -94,15 +94,15 @@
     },
 
     {
-      "Name": "CLARO",
+      "Name": "CLARO 1",
       "TYPE": "premium",
       "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: br.igornerfree.tk\nUpgrade: ws\n\n",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Info": "Tlsws""
     },
     
     {
