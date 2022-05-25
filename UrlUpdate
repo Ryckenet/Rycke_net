@@ -97,7 +97,7 @@
       "Name": "CLARO 1",
       "TYPE": "premium",
       "FLAG": "claro",
-      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: br.igornerfree.tk\nUpgrade: ws\n\n",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: ryckecnet.tk\nUpgrade: ws\n\n",
       "SNI": "content.akross.com.br",
       "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
