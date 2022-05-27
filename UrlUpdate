@@ -6,7 +6,159 @@
   "EmailFeedback": "",
   "UrlContato": "https://wa.me/qr/I6S2DIVJFQVIF1",
   "UrlTermos": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/termos.html",
+  "CheckUser": "true",{
+  "Version": "1.0.7",
+  "ReleaseNotes": "TESTE UPDATE ONLINE",
+  "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
+  "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
+  "EmailFeedback": "",
+  "UrlContato": "https://wa.me/qr/I6S2DIVJFQVIF1",
+  "UrlTermos": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/termos.html",
   "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+	{
+      "Porta": "7100"
+    },
+	{
+      "Porta": "7295"
+    },
+	{
+      "Porta": "7296"
+    },
+	{
+      "Porta": "7297"
+    },
+	{
+      "Porta": "7298"
+    },
+	{
+      "Porta": "7299"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
+    }
+  ],
+  "Servers": [
+   {
+      "Name": "SERVIDOR 1 | PLUS",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "ryckecnet.tk",
+      "CheckUser": "http://209.14.2.22:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+ 
+  ],
+  "Networks": [
+  
+    {
+      "Name": "🔴VIVO 1",
+      "TYPE": "premium",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.6.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+
+    {
+      "Name": "🔴VIVO 2",
+      "TYPE": "premium",    
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    
+    {
+      "Name": "🟠TIM ",
+      "TYPE": "premium",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.16.19.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    
+{
+      "Name": "🟠TIM 2",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1[lf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+
+    {
+      "Name": "🟡CLARO ",
+      "TYPE": "premium",
+      "FLAG": "claro",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: ryckecnet.tk\nUpgrade: ws\n\n",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "80,443",
+      "Info": "Tlsws"
+    },
+{
+      "Name": "🟡CLARO [SSL 1]",
+      "FLAG": "claro",
+      "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "boom4u.com.br",
+      "TlsIP": "boom4u.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟢OI PROXY 01",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+
+    {
+      "Name": "🟢OI SSL 2",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: ryckecnet.tk\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443,80",
+      "Info": "Tlsws"
+     
+    }
+  ]
+}
+
   "Udp": [
     {
       "Porta": "7300"
