@@ -67,7 +67,7 @@
   "Networks": [
   
     {
-      "Name": "🔴VIVO 1",
+      "Name": "🔴VIVO",
       "TYPE": "premium",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
@@ -125,7 +125,7 @@
       "Info": "Tlsws"
     },
 {
-      "Name": "🟡CLARO [SSL 1]",
+      "Name": "🟡CLARO 2",
       "FLAG": "claro",
       "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "boom4u.com.br",
@@ -135,7 +135,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟢OI PROXY 01",
+      "Name": "🟢OI ",
       "FLAG": "oi",
       "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -146,7 +146,7 @@
     },
 
     {
-      "Name": "🟢OI SSL 2",
+      "Name": "🟢OI 2",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: ryckecnet.tk\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
