@@ -58,20 +58,8 @@
   ],
   "Networks": [
   
-  {
-      "Name": "VIVO NOVA",
-      "TYPE": "premium",
-      "FLAG": "vivo",
-      "Payload": "GET wss://cname.vivo.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
-      "SNI": "cname.vivo.com.br",
-      "TlsIP": "162.159.135.63",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-  
     {
-      "Name": "🔴 VIVO 2",
+      "Name": "🔴 VIVO 1",
       "TYPE": "premium",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
@@ -83,7 +71,7 @@
     },
 
     {
-      "Name": "🔴 VIVO 3",
+      "Name": "🔴 VIVO 2",
       "TYPE": "premium",    
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
@@ -94,7 +82,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO NOVA",
+      "Name": "🔴 VIVO NOVA",
       "FLAG": "vivo",
       "Payload": "GET wss://cname.vivo.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "cname.vivo.com.br",
@@ -128,7 +116,7 @@
 
     
 {
-      "Name": "🟡 CLARO [SSL 1]",
+      "Name": "🟡 CLARO OFF]",
       "FLAG": "claro",
       "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "boom4u.com.br",
@@ -138,15 +126,16 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟡 CLARO TESTES",
-      "FLAG": "claro",
-      "Payload": "GET wss://crl4.digicert.com/ HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "crl4.digicert.com",
-      "TlsIP": "crl4.digicert.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
+      "Name": "🟡 CLARO LENTA]",
+   "FLAG": "claro",
+   "Payload": "GET sni://content.akross.com.br HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+   "SNI": "content.akross.com.br",
+   "TlsIP": "content.akross.com.br",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+   },
+  
     {
       "Name": "🟢 OI PROXY 01",
       "FLAG": "oi",
