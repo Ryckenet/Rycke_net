@@ -111,6 +111,17 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
+{
+      "Name": "CLARO",
+      "TYPE": "premium",
+      "FLAG": "claro",
+      "Payload": "GET wss://No.descomplica.com.br HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "No.descomplica.com.br",
+      "TlsIP": "No.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
 
 {
       "Name": "CLARO LENTA",
