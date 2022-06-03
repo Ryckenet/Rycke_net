@@ -114,10 +114,10 @@
 {
       "Name": "CLARO OF",
       "FLAG": "claro",
-      "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "boom4u.com.br",
-      "TlsIP": "boom4u.com.br",
-      "ProxyIP": "",
+      "Payload": "GET wss://clients3.google.com HTTP/1.1[crlf]Host: ryckecnet[crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "clients3.google.com",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "199.60.103.228",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
