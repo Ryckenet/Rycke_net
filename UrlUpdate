@@ -111,16 +111,17 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-    {
-      "Name": "OI 01",
-      "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
+
+{
+      "Name": "CLARO LENTA",
+   "FLAG": "claro",
+   "Payload": "GET sni://content.akross.com.br HTTP\/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+   "SNI": "content.akross.com.br",
+   "TlsIP": "content.akross.com.br",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+   },
     {
       "Name": "OI 2",
       "FLAG": "oi",
