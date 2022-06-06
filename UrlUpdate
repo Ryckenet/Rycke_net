@@ -90,17 +90,6 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-    {
-      "Name": " TIM 1",
-      "TYPE": "premium",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.19.94",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
 {
       "Name": "TIM 2",
       "FLAG": "tim",
