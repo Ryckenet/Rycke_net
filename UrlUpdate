@@ -112,7 +112,7 @@
     },
        
 {
-      "Name": "CLARO 1",
+      "Name": "CLARO OF",
       "TYPE": "premium",
       "FLAG": "claro",
       "Payload": "GET wss://icanhazip.com HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
@@ -124,7 +124,7 @@
     },
 
     {
-      "Name": "CLARO 2 ",
+      "Name": "CLARO (Recomendado)",
       "TYPE": "premium",
       "FLAG": "claro",
       "Payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
