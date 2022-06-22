@@ -63,7 +63,7 @@
       "FLAG": "vivo",
       "Payload": "GET wss://cname.vivo.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "cname.vivo.com.br",
-      "TlsIP": "104.24.10.16",
+      "TlsIP": "172.64.195.2",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
