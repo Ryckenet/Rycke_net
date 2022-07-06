@@ -54,31 +54,10 @@
       "USER": "",
       "PASS": ""
     },
- 
   ],
   "Networks": [
-    {
-      "Name": "VIVO 01",
-      "FLAG": "vivo",
-      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "carrinho-pos-familia.vivo.com.br",
-      "TlsIP": "172.67.165.43",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-{
-      "Name": "VIVO 02",
-      "FLAG": "vivo",
-      "Payload": "GET wss://unpkg.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "unpkg.com",
-      "TlsIP": "172.67.165.43",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
   {
-      "Name": "VIVO 03",
+      "Name": "VIVO 1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -86,6 +65,16 @@
       "ProxyIP": "vivo1.sonicvpn.xyz",
       "ProxyPort": "80",
       "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO 2",
+      "FLAG": "vivo",
+      "Payload": "GET wss://vivo1.sonicvpn.xyz HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "vivo1.sonicvpn.xyz",
+      "TlsIP": "vivo1.sonicvpn.xyz",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
 {
       "Name": "TIM (Recomendado)",
@@ -107,19 +96,6 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-       
-{
-      "Name": "CLARO OF",
-      "TYPE": "premium",
-      "FLAG": "claro",
-      "Payload": "GET wss://icanhazip.com HTTP/1.1[crlf]Host: ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "icanhazip.com",
-      "TlsIP": "icanhazip.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-
     {
       "Name": "CLARO (Recomendado)",
       "TYPE": "premium",
