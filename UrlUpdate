@@ -42,7 +42,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "ryckecnet.tk",
-      "CheckUser": "http://209.14.2.22:5454/checkUser",
+      "CheckUser": "http://144.22.230.198:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
