@@ -6,36 +6,36 @@
   "EmailFeedback": "",
   "UrlContato": "",
   "UrlTermos": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/termos.html",
-  "CheckUser": "true",
+  "CheckUser": "http://144.22.230.198:5454/checkUser",
   "Udp": [
     {
-      "Porta": "7296"
+      "Porta": "7100"
     },
 	{
       "Porta": "7200"
     },
 	{
-      "Porta": "7297"
-    },
-	{
-      "Porta": "7298"
-    },
-	{
-      "Porta": "7299"
-    },
-	{
-      "Porta": "72300"
+      "Porta": "7300"
     },
 	{
       "Porta": "7400"
     },
-    {
+	{
       "Porta": "7500"
     },
-    {
-      "Porta": "7295"
+	{
+      "Porta": "7600"
     },
-  ],
+	{
+      "Porta": "7700"
+    },
+    {
+      "Porta": "7800"
+    },
+    {
+      "Porta": "7900"
+    },
+    ],
   "Servers": [
    {
       "Name": "SERVIDOR 1 | PLUS",
@@ -48,7 +48,7 @@
       "USER": "",
       "PASS": ""
     },
-  ],
+    ],
   "Networks": [
     {
       "Name": "VIVO 1",
@@ -70,7 +70,7 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-  {
+    {
    "Name": "VIVO 3",
    "FLAG": "vivo",
    "Payload": "GET wss://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
@@ -90,7 +90,7 @@
    "ProxyPort": "443",
    "Info": "Tlsws"
   },
-{
+  {
       "Name": "VIVO 5",
       "FLAG": "vivo",
       "Payload": "GET wss://legado.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
@@ -100,7 +100,17 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
    },
-    {
+{
+      "Name": "VIVO  (volta amoR)",
+      "FLAG": "vivo",
+      "Payload": "GET ws://vivoemdia.vivo.com.br//HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "vivoemdia.vivo.com.br",
+      "TlsIP": "104.21.11.51",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+   {
       "Name": "TIM (Recomendado)",
       "FLAG": "tim",
       "Payload": "GET wss://static.r4you.co HTTP/1.1[lf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
@@ -110,7 +120,7 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-{
+    {
       "Name": "TIM MUDAR APN ",
       "FLAG": "tim",
       "Payload": "GET wss://www.alura.com.br HTTP/1.1[lf]Host: ryckecnet.tk[crlf]Upgrade: websocket[crlf][crlf]",
