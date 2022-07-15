@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.11",
+  "Version": "1.0.12",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
@@ -9,40 +9,51 @@
   "CheckUser": "true",
   "Udp": [
     {
-      "Porta": "7100"
+      "Porta": "7500"
+    },
+	{
+      "Porta": "7295"
+    },
+	{
+      "Porta": "7296"
     },
 	{
       "Porta": "7200"
     },
 	{
+      "Porta": "7297"
+    },
+	{
+      "Porta": "7298"
+    },
+	{
+      "Porta": "7299"
+    },
+    {
       "Porta": "7300"
     },
-	{
+    {
       "Porta": "7400"
-    },
-	{
-      "Porta": "7500"
-    },
-	{
-      "Porta": "7600"
-    },
-	{
-      "Porta": "7700"
-    },
-    {
-      "Porta": "7800"
-    },
-    {
-      "Porta": "7900"
     },
     ],
   "Servers": [
    {
-      "Name": "SERVIDOR 1 | PLUS",
+      "Name": "SERVIDOR 1",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "ryckecnet.tk",
       "CheckUser": "http://144.22.230.198:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR 2",
+      "TYPE": "premium ",
+      "FLAG": "br.png",
+      "ServerIP": "top.ryckecnet.tk",
+      "CheckUser": "",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
