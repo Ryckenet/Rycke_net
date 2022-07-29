@@ -53,7 +53,7 @@
       "TYPE": "premium ",
       "FLAG": "br.png",
       "ServerIP": "top.ryckecnet.tk",
-      "CheckUser": "",
+      "CheckUser": "http://2804:5364:3200:3:3:3:27ed:b7a6:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
