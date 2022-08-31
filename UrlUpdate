@@ -74,7 +74,7 @@
 {
          "Name": "🔥CLARO🔥cloudfront2",
          "FLAG": "claro",
-         "Payload": "GET / HTTP/1.1[crlf]Host: d27xuhlgo502w1.cloudfront.net [crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+         "Payload": "GET / HTTP/1.1[crlf]Host: d1p5jg9rfk6fnq.cloudfront.net [crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "d3awytnmmfk53d.cloudfront.net",
       "TlsIP": "d3awytnmmfk53d.cloudfront.net",
       "ProxyIP": "d3awytnmmfk53d.cloudfront.net",
