@@ -64,7 +64,7 @@
   {
       "Name": "VIVO FRONT",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d27xuhlgo502w1.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d1p5jg9rfk6fnq.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "d3lssy601oqg2b.cloudfront.net",
       "TlsIP": "",
       "ProxyIP": "recarga.vivo.com.br",
