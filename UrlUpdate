@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.13",
+  "Version": "1.0.14",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
@@ -9,13 +9,7 @@
   "CheckUser": "true",
   "Udp": [
     {
-      "Porta": "7500"
-    },
-    {
       "Porta": "7300"
-    },
-    {
-      "Porta": "7400"
     },
     ],
   "Servers": [
@@ -23,19 +17,8 @@
       "Name": "SERVIDOR 1",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "ryckecnet.tk",
-      "CheckUser": "http://2804:5364:3200:3:3:3:27ed:b7a6:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR 2",
-      "TYPE": "premium ",
-      "FLAG": "br.png",
-      "ServerIP": "top1.ryckecnet.tk",
-      "CheckUser": "",
+      "ServerIP": "rycketv.online",
+      "CheckUser":"http://2804:5364:3200:3:3:3:27ed:b7a6:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -44,19 +27,39 @@
     ],
   "Networks": [
   {
-      "Name": "VIVO FRONT",
+      "Name": "VIVO \nCloudfront",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d1p5jg9rfk6fnq.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "d3lssy601oqg2b.cloudfront.net",
+      "SNI": "",
       "TlsIP": "",
       "ProxyIP": "recarga.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-{
-      "Name": "TIM NORMAL",
+            {
+      "Name": "CLARO \nNormal ",
+      "FLAG": "claro",
+      "Payload": "GET wss://em.launchdarkly.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: Websocket[crlf]Upgrade: ScotTLS[crlf][crlf]",
+      "SNI": "em.launchdarkly.com",
+      "TlsIP": "clarowing65.storage-cdn77.gq",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+   {
+      "Name": "CLARO \nCloudfront ",
+      "FLAG": "claro",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d1p5jg9rfk6fnq.cloudfront.net [crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "d2lw319xdy6x9h.cloudfront.net",
+      "TlsIP": "d2lw319xdy6x9h.cloudfront.net",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+},
+   {
+      "Name": "TIM \nNormal",
       "FLAG": "tim",
-      "Payload": "GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep -Vivo[crlf][crlf]",
+      "Payload": "GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: rycketv.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep -Vivo[crlf][crlf]",
       "SNI": "bam.nr-data.net",
       "TlsIP": "162.247.241.14",
       "ProxyIP": "",
@@ -65,16 +68,25 @@
    },
 
     {
-      "Name": "OI ",
+"Name": "TIM \nCloudfront",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[crlf]Host: d1p5jg9rfk6fnq.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+"SNI": "d2ld57tg0vath9.cloudfront.net",
+"TlsIP": "",
+"ProxyIP": "planoscontrole.tim.com.br",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+    {
+      "Name": "OI \nNormal",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: ryckecnet.tk\nUpgrade: ws\n\n",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: rycketv.online\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443,80",
       "Info": "Tlsws"
-     
+
     }
   ]
 }
-
