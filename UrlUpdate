@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "rycketv.online",
-      "CheckUser":"http://2804:5364:3200:3:3:3:27ed:b7a6:5454/checkUser",
+      "CheckUser":"http://209.14.2.22:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -57,7 +57,7 @@
       "Info": "Tlsws"
 },
    {
-      "Name": "TIM \nNormal",
+      "Name": "TIM 1 \nNormal",
       "FLAG": "tim",
       "Payload": "GET wss://bam.nr-data.net// HTTP/1.1[crlf]Host: rycketv.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep -Vivo[crlf][crlf]",
       "SNI": "bam.nr-data.net",
@@ -66,17 +66,6 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
    },
-
-    {
-"Name": "TIM \nCloudfront",
-"FLAG": "tim",
-"Payload": "GET / HTTP/1.1[crlf]Host: d1p5jg9rfk6fnq.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-"SNI": "d2ld57tg0vath9.cloudfront.net",
-"TlsIP": "",
-"ProxyIP": "planoscontrole.tim.com.br",
-"ProxyPort": "80",
-"Info": "Proxy"
-},
     {
       "Name": "OI \nNormal",
       "FLAG": "oi",
