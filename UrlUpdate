@@ -13,8 +13,19 @@
     },
     ],
   "Servers": [
-   {
+  {
       "Name": "SERVIDOR 1",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "t.topspeed.ml",
+      "CheckUser": "http://209.14.71.245:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+   {
+      "Name": "SERVIDOR 2",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "rycketv.online",
@@ -24,31 +35,31 @@
       "USER": "",
       "PASS": ""
     },
-{
-      "Name": "SERVIDOR 2",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "t.topspeed.ml",
-      "CheckUser": "",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "http://209.14.71.245:5454/checkUser",
-      "PASS": ""
-    },
+
     ],
   "Networks": [
   {
+    "Name": "VIVO \nNormal",
+    "FLAG": "vivo",
+    "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host:rycketv.online[split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
+    "SNI": "",
+    "TlsIP": "",
+    "ProxyIP": "104.16.51.111",
+    "ProxyPort": "80",
+    "Info": "Proxy"
+    },
+  {
       "Name": "VIVO \nCloudfront",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3hmxzo0e4krhj.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET wss://d29489t5yypeky.cloudfront.net HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyIP": "metadatadb.lab.smartcontent.clarobrasil.mobi",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
             {
-    "Name": " TIM \nNormal",
+    "Name": " TIM & VIVO\nNormal",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: rycketv.online[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
     "SNI": "",
@@ -56,6 +67,16 @@
     "ProxyIP": "",
     "ProxyPort": "80",
     "Info": "Direct"
+    },
+    {
+      "Name": "CLARO \nCloudfront",
+      "FLAG": "claro",
+      "Payload": "GET wss://d29489t5yypeky.cloudfront.net HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "metadatadb.lab.smartcontent.clarobrasil.mobi",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
   ]
 }
