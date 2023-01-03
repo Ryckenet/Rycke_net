@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "rycketv.online",
-      "CheckUser":"http://209.14.2.22:5454/checkUser",
+      "CheckUser":"http://209.14.71.245:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -32,7 +32,7 @@
       "CheckUser": "",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "",
+      "USER": "http://209.14.71.245:5454/checkUser",
       "PASS": ""
     },
     ],
@@ -48,7 +48,7 @@
       "Info": "Proxy"
     },
             {
-    "Name": "💙TIM SERVIDOR XP💙",
+    "Name": " TIM \nNormal",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: rycketv.online[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
     "SNI": "",
@@ -57,16 +57,5 @@
     "ProxyPort": "80",
     "Info": "Direct"
     },
-    {
-      "Name": "OI \nNormal",
-      "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: rycketv.online\nUpgrade: ws\n\n",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "www.hbogo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443,80",
-      "Info": "Tlsws"
-
-    }
   ]
 }
