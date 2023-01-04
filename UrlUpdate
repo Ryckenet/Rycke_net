@@ -51,7 +51,7 @@
   {
       "Name": "VIVO \nCloudfront",
       "FLAG": "vivo",
-      "Payload": "GET wss://d29489t5yypeky.cloudfront.net HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://dbsch70ro5qef.cloudfront.net HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "metadatadb.lab.smartcontent.clarobrasil.mobi",
@@ -71,7 +71,7 @@
     {
       "Name": "CLARO \nCloudfront",
       "FLAG": "claro",
-      "Payload": "GET wss://d29489t5yypeky.cloudfront.net HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://dbsch70ro5qef.cloudfront.net HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "metadatadb.lab.smartcontent.clarobrasil.mobi",
