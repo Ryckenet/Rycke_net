@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.15",
+  "Version": "1.0.16",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
@@ -11,13 +11,22 @@
     {
       "Porta": "7300"
     },
+    {
+      "Porta": "7400"
+    },
+{
+      "Porta": "7500"
+    },
+{
+      "Porta": "7600"
+    },
     ],
   "Servers": [
   {
       "Name": "SERVIDOR 1",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "t.topspeed.ml",
+      "ServerIP": "apptest.c6bank.app",
       "CheckUser": "http://209.14.71.245:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -51,7 +60,7 @@
   {
       "Name": "VIVO \nCloudfront",
       "FLAG": "vivo",
-      "Payload": "GET wss://dbsch70ro5qef.cloudfront.net HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://d29489t5yypeky.cloudfront.net HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "metadatadb.lab.smartcontent.clarobrasil.mobi",
@@ -63,15 +72,26 @@
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: rycketv.online[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
     "SNI": "",
-    "TlsIP": "t.topspeed.ml",
+    "TlsIP": "104.16.53.111",
     "ProxyIP": "",
     "ProxyPort": "80",
     "Info": "Direct"
     },
     {
+    "Name": " TIM \nNormal",
+    "FLAG": "tim",
+    "Payload": "GET / HTTP/1.1[crlf]Host: www.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: rycketv.online[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+    "SNI": "",
+    "TlsIP": "104.19.241.25",
+    "ProxyIP": "",
+    "ProxyPort": "80",
+    "Info": "Direct"
+    },
+    
+    {
       "Name": "CLARO \nCloudfront",
       "FLAG": "claro",
-      "Payload": "GET wss://dbsch70ro5qef.cloudfront.net HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://d29489t5yypeky.cloudfront.net HTTP/1.1[crlf]Host: metadatadb.lab.smartcontent.clarobrasil.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "metadatadb.lab.smartcontent.clarobrasil.mobi",
