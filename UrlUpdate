@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.18",
+  "Version": "1.0.19",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
@@ -57,16 +57,6 @@
     "ProxyPort": "80",
     "Info": "Proxy"
     },
-            {
-    "Name": " TIM & VIVO\nNormal",
-    "FLAG": "tim",
-    "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: rycketv.online[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
-    "SNI": "",
-    "TlsIP": "104.16.53.111",
-    "ProxyIP": "",
-    "ProxyPort": "80",
-    "Info": "Direct"
-    },
     {
     "Name": " TIM \nNormal",
     "FLAG": "tim",
@@ -100,7 +90,7 @@
   },
  
   	{
-"Name": "💙TIM ✅ 📡 🔴\n R1", 
+"Name": "TIM 03", 
 "FLAG": "tim", 
 "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=www.c6bank.app;cdn.c6bank.com.br;api.sandbox.c6bank.com.br;apptest.c6bank.app;c6bank.com.br;support.deezer.com;fly218.com;rapehun.com][crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL /Chessmind/ HTTP/1.1[lf]Host: [app_host][lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]", 
 "SNI": "", 
