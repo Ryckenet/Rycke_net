@@ -1,11 +1,11 @@
 {
-  "Version": "1.0.22",
+  "Version": "1.0.21",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
-  "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
+  "Sms": "",
   "EmailFeedback": "",
   "UrlContato": "",
-  "UrlTermos": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/termos.html",
+  "UrlTermos": "",
   "CheckUser": "true",
   "Udp": [
     {
