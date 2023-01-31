@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.21",
+  "Version": "1.0.22",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/flindao/Conecta4g_site/main/RickeNet/UrlSms",
@@ -22,9 +22,20 @@
     },
     ],
   "Servers": [
+{
+      "Name": "SERVIDOR 1",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "tim.rycketv.online",
+      "CheckUser":"http://209.14.71.245:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
   
    {
-      "Name": "SERVIDOR 1",
+      "Name": "SERVIDOR 2",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "rycketv.online",
@@ -82,7 +93,7 @@
  {
 "Name": "VIVO 2 ", 
 "FLAG": "vivo", 
-"Payload": "BASE-LINE wss://[rotate=servicedesk.resultadosdigitais.com.br;www.help.tinder.com;ffsupportbd.garena.com;support.giphy.com;[app_host];support.deezer.com;atendimento.descomplica.com.br;atendimento.descomplica.com.br;support.counterpath.com;fly218.com;rapehun.com] HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", 
+"Payload": "BASE-LINE wss://[rotate=servicedesk.resultadosdigitais.com.br;www.help.tinder.com;ffsupportbd.garena.com;support.giphy.com;[app_host];support.deezer.com;atendimento.descomplica.com.br;atendimento.descomplica.com.br;support.counterpath.com;fly218.com;rapehun.com] HTTP/1.1[lf]Host: rycketv.online [lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", 
 "SNI": "", 
 "TlsIP": "br.rycketv.online", 
 "ProxyIP": "br.rycketv.online", 
@@ -94,7 +105,7 @@
 
 "Name": "VIVO 3", 
 "FLAG": "vivo", 
-"Payload": "BASE-LINE wss://[rotate=atendimento.descomplica.com.br;vivoid.vivo.com.br;support.deezer.com;servicedesk.resultadosdigitais.com.br;www.help.tinder.com;atendimento.descomplica.com.br;[app_host];melhorplano.net;vivo360.vivo.com.br;selectra.net.br;gprs.digitel.com.ve] HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", 
+"Payload": "BASE-LINE wss://[rotate=atendimento.descomplica.com.br;vivoid.vivo.com.br;support.deezer.com;servicedesk.resultadosdigitais.com.br;www.help.tinder.com;atendimento.descomplica.com.br;[app_host];melhorplano.net;vivo360.vivo.com.br;selectra.net.br;gprs.digitel.com.ve] HTTP/1.1[lf]Host: rycketv.online[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", 
 "SNI": "", 
 "TlsIP": "", 
 "ProxyIP": "br.rycketv.online", 
