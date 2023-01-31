@@ -23,7 +23,7 @@
     ],
   "Servers": [
    {
-      "Name": "SERVIDOR 2",
+      "Name": "SERVIDOR 1",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "rycketv.online",
