@@ -98,17 +98,7 @@
 "ProxyPort": "80", 
 "Info": "Proxy" 
 },
- {
-"Name": "VIVO testando", 
-"FLAG": "vivo", 
-"Payload": "BASE-LINE wss://[rotate=0.billo.zendesk.com;0.zendesk.com;000-30-00.zendesk.com;0000-30-00.zendesk.com;00000.zendesk.com;000000.zendesk.com;0000000.zendesk.com;000000000.zendesk.com;0000000000.zendesk.com;00000000000.zendesk.com;000000000000000.zendesk.com;0000000000000000000000000.zendesk.com;0011001100.zendesk.com;0020huh8h7.zendesk.com;005000.zendesk.com;0090.zendesk.com;00967.zendesk.com;0100000.zendesk.com;034200.zendesk.com;05000.zendesk.com;06000.zendesk.com;063help54500.zendesk.com;0644352400.zendesk.com;0674603500.zendesk.com;08658400.zendesk.com] HTTP/1.1[lf]Host: rycketv.online [lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]", 
-"SNI": "", 
-"TlsIP": "br1.rycketv.online", 
-"ProxyIP": "br1.rycketv.online", 
-"ProxyPort": "80", 
-"Info": "Proxy" 
-},
- 
+
  { 
 
 "Name": "VIVO 3", 
