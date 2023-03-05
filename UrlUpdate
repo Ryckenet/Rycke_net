@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.28",
+  "Version": "1.0.29",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -78,6 +78,16 @@
       "ProxyPort": "80",
       "Info": "Proxy"
 },
+{
+            "Name": "TIM Atualizada",
+            "FLAG": "tim",
+            "Payload": "GET / HTTP/1.1[crlf]Host: creatorsupport.deezer.com[crlf]Expect: 100-TSTOPSPEED[crlf][crlf][split][crlf][crlf]PUT- /TSTOPSPEED/ HTTP/1.1[crlf]Host: [app_host][crlf]Expect: 100-TOPSPEED[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TSTOPSPEED[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.51.111",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
  
 {
     "Name": "TIM & VIVO",
