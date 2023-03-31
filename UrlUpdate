@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.32",
+  "Version": "1.0.33",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -85,8 +85,38 @@
             "ProxyIP": "support.oneup.com",
             "ProxyPort": "80",
             "Info": "Proxy"
-        },
-
+        },Pode ajudar alguém....
+Pode ajudar alguém....
+ {
+      "Name": "TIM TOPSPEED 1",
+       "FLAG": "tim",
+       "Payload": "GET / HTTP/1.1[crlf]Host: www.c6bank.com.br[crlf][crlf][split][crlf][crlf]BCOPY / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]TOPSPEED[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "104.16.53.111",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+    },
+    {
+      "Name": "TIM TESTE 2",
+       "FLAG": "tim",
+       "Payload": "GET / HTTP/1.1[crlf]Host: www.c6bank.com.br[crlf][crlf][split][crlf][crlf]MOVE / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]TOPSPEED[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "104.19.241.25",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+    },
+    {
+      "Name": "TIM TOPSPEED 3",
+       "FLAG": "tim",
+       "Payload": "GET / HTTP/1.1[crlf]Host: www.c6bank.com.br[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]TOPSPEED[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "104.19.242.25",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+    },
 {
       "Name": "VIVO 1",
       "FLAG": "vivo",
