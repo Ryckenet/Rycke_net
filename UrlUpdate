@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.39",
+  "Version": "1.0.40",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -46,6 +46,16 @@
             "ProxyPort": "80",
             "Info": "Proxy"
     },   
+    {
+      "Name": "TIM E VIVO 26/05",
+      "FLAG": "tim",
+      "Payload": "CONNECT / HTTP/1.1[crlf]Host: www.c6bank.com.br[crlf][crlf][split]- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Date: TS[crlf]User-Agent: (PAYLOAD É TUDO IGUAL NÉ?) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf]@TSTOPSPEED[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "::ffff:6810:356f",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+   },
 {
         "Name": "TIM 2 ",
 "FLAG": "tim",
