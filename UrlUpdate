@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.41",
+  "Version": "1.0.42",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -108,9 +108,9 @@
       "Info": "Proxy"
    },
    {
-"Name": "VIVO TESTE ",
+"Name": "💜VIVO ",
       "FLAG": "vivo",
-      "Payload": "GET-RYCKENET/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET-MATRIX rycketv.online/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "rycketv.online",
       "TlsIP": "support.deezer.com",
       "ProxyIP": "",
