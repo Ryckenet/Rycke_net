@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.45",
+  "Version": "1.0.46",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -130,6 +130,15 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-
+    {
+      "Name": "VIVO TESTE",
+      "FLAG": "vivo",
+      "Payload": "GET-RYCKENET wss://[app_host]/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "::FFFF:6810:356F",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
   ]
 }
