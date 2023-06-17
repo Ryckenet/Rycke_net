@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.42",
+  "Version": "1.0.43",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -26,7 +26,7 @@
       "Name": "SERVIDOR 1",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "rycketv.online",
+      "ServerIP": "ryck.online",
       "CheckUser":"http://209.14.71.245:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
