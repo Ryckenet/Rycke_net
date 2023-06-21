@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.46",
+  "Version": "1.0.47",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -99,46 +99,15 @@
             "Info": "Proxy"
     },   
 
-   {
-      "Name": "VIVO 01",
-       "FLAG": "vivo",
-       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]@TSTOPSPEED[crlf][crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "::ffff:6810:336f",
-       "ProxyPort": "80",
-       "Info": "Proxy"
-    },
-{
-      "Name": "VIVO 02",
-      "FLAG": "vivo",
-      "Payload": "GET-RYCKENET wss://[app_host]/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-
-    {
-      "Name": "VIVO 03",
-      "FLAG": "vivo",
-      "Payload": "GET-RYCKENET wss://[app_host]/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.53.111",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "VIVO TESTE",
-      "FLAG": "vivo",
-      "Payload": "GET-RYCKENET wss://[app_host]/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "::FFFF:6810:356F",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
+  {
+"Name": "VIVO FUNCIONANDO",
+"FLAG": "vivo",
+"Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "108.158.122.48",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
   ]
 }
