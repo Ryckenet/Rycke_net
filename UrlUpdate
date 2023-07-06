@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.49",
+  "Version": "1.0.50",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -36,6 +36,16 @@
 
     ],
   "Networks": [
+       {
+"Name": "🟣 VIVO SECURITY \n 0 ✅",
+"FLAG": "vivo",
+"Payload": "HTTP/1.1/ \nHost: www.vivo.com.br[crlf][crlf]",
+"SNI": "[app_host]",
+"TlsIP": "209.14.71.245",
+"ProxyIP": "209.14.71.245",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
        {
 "Name": "🟣 VIVO SECURITY \n 01 ✅",
 "FLAG": "vivo",
