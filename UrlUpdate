@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.51",
+  "Version": "1.0.52",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -66,6 +66,16 @@
       "ProxyPort": "80",
       "Info": "Proxy"
    },
+{
+"Name": "💜VIVO \n ✅ 📡 🔴\ EASY,CONTROLE", 
+"FLAG": "vivo", 
+"Payload": "BASE-LINE wss://[rotate=[app_host];sigitm.vivo.com.br;vigia.vivo.com.br;gracegardencounseling.com;veasy.startnetplus.xyz;[app_host];vivoid.vivo.com.br;melhorplano.net;vivo360.vivo.com.br;vivorio.com.br;selectra.net.br;gprs.digitel.com.ve;power4fit.com;bolsas.alfaumuarama.edu.br;eventos.alfaumuarama.edu.br;concursos.alfaumuarama.edu.br;legado.vivo.com.br;carrinho-pos-familia.vivo.com.br;unpkg.com;cdnjs.cloudflare.com;portaljud.vivo.com.br;vivoemdia.vivo.com.br;fly218.com;rapehun.com] HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: matrixplay[lf][lf]", 
+"SNI": "", 
+"TlsIP": "", 
+"ProxyIP": "adapiteasy.sonicvpn.xyz", 
+"ProxyPort": "80", 
+"Info": "Proxy" 
+},
 {
             "Name": "🔵 TIM Flare \n 01 ✅",
             "FLAG": "tim",
