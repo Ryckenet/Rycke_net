@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.54",
+  "Version": "1.0.55",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -33,23 +33,10 @@
       "USER": "",
       "PASS": ""
     },
-
-    ],
-  "Networks": [
-       {
-"Name": "🟣 VIVO SECURITY \n 0 ✅",
-"FLAG": "vivo",
-"Payload": "HTTP/1.1/ \nHost: www.vivo.com.br[crlf][crlf]",
-"SNI": "[app_host]",
-"TlsIP": "209.14.71.245",
-"ProxyIP": "209.14.71.245",
-"ProxyPort": "80",
-"Info": "Proxy"
-},
        {
 "Name": "🟣 VIVO SECURITY \n 01 ✅",
 "FLAG": "vivo",
-"Payload": "PUT / HTTP/1.1[crlf]Host: [host_port]@[rotate=portalrecarga.vivo.com.br;meuplano.tim.com.br;www.claro.com.br;buzzfeed.com;mobile.adobe.com;@InterFlashplus][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: [rotate=portalrecarga.vivo.com.br;meuplano.tim.com.br;www.claro.com.br;buzzfeed.com;mobile.adobe.com;@InterFlashplus][crlf]X-Forwarded-For: [rotate=portalrecarga.vivo.com.br;meuplano.tim.com.br;www.claro.com.br;buzzfeed.com;mobile.adobe.com;@InterFlashplus][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Referer: [rotate=portalrecarga.vivo.com.br;meuplano.tim.com.br;www.claro.com.br;buzzfeed.com;mobile.adobe.com;@InterFlashplus][crlf]Upgrade: websocket[crlf][raw][crlf][crlf]",
+"Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
 "SNI": "[app_host]",
 "TlsIP": "209.14.71.245",
 "ProxyIP": "209.14.71.245",
