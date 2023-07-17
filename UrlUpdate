@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.58",
+  "Version": "1.0.59",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -55,8 +55,6 @@
       "ProxyPort": "80",
       "Info": "Proxy"
    },
-    ],
-  "Networks": [
 {
 "Name": "💜VIVO \n ✅ 📡 🔴\ EASY,CONTROLE", 
 "FLAG": "vivo", 
