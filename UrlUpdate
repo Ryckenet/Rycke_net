@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.56",
+  "Version": "1.0.57",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -33,6 +33,16 @@
       "USER": "",
       "PASS": ""
     },
+       {
+"Name": "🟣 VIVO SECURITY \n 01 ✅",
+"FLAG": "vivo",
+"Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
+"SNI": "[app_host]",
+"TlsIP": "209.14.71.245",
+"ProxyIP": "209.14.71.245",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
 {
       "Name": "🟣 VIVO Front \n 02 ✅ ",
       "FLAG": "vivo",
@@ -43,6 +53,8 @@
       "ProxyPort": "80",
       "Info": "Proxy"
    },
+    ],
+  "Networks": [
 {
 "Name": "💜VIVO \n ✅ 📡 🔴\ EASY,CONTROLE", 
 "FLAG": "vivo", 
