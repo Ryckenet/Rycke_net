@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.57",
+  "Version": "1.0.58",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -33,6 +33,8 @@
       "USER": "",
       "PASS": ""
     },
+    ],
+  "Networks": [
        {
 "Name": "🟣 VIVO SECURITY \n 01 ✅",
 "FLAG": "vivo",
