@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.69",
+  "Version": "1.0.70",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -39,6 +39,16 @@
 {
 "Name": "VIVO SECURITY 01 \n ✅ AGUARDAR CONECTAR",
 "FLAG": "vivo",
+"Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: [lf]",
+"SNI": "209.14.71.245",
+"TlsIP": "209.14.71.245",
+"ProxyIP": "209.14.71.245",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+"Name": "VIVO SECURITY 02 \n ✅ AGUARDAR CONECTAR",
+"FLAG": "vivo",
 "Payload": "CONNECT [host_port] HTTP\\\/1.1[crlf]Host: chacalvpn.shop[crlf][crlf]",
 "SNI": "[app_host]",
 "TlsIP": "209.14.71.245",
@@ -47,7 +57,7 @@
 "Info": "Proxy"
 },
 {
-"Name": "VIVO SECURITY 02\n  ✅ AGUARDAR CONECTAR",
+"Name": "VIVO SECURITY 03\n  ✅ AGUARDAR CONECTAR",
 "FLAG": "vivo",
 "Payload": "PUT / HTTP/1.1[crlf]Host: [host_port]@[rotate=portalrecarga.vivo.com.br;meuplano.tim.com.br;www.claro.com.br;buzzfeed.com;mobile.adobe.com;@InterFlashplus][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: [rotate=portalrecarga.vivo.com.br;meuplano.tim.com.br;www.claro.com.br;buzzfeed.com;mobile.adobe.com;@InterFlashplus][crlf]X-Forwarded-For: [rotate=portalrecarga.vivo.com.br;meuplano.tim.com.br;www.claro.com.br;buzzfeed.com;mobile.adobe.com;@InterFlashplus][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Referer: [rotate=portalrecarga.vivo.com.br;meuplano.tim.com.br;www.claro.com.br;buzzfeed.com;mobile.adobe.com;@InterFlashplus][crlf]Upgrade: websocket[crlf][raw][crlf][crlf]",
 "SNI": "209.14.71.245",
@@ -57,7 +67,7 @@
 "Info": "Proxy"
 },
 {
-"Name": "VIVO SECURITY 03 \n ✅ AGUARDAR CONECTAR",
+"Name": "VIVO SECURITY 04 \n ✅ AGUARDAR CONECTAR",
 "FLAG": "vivo",
 "Payload": "[delay_split]ACL CHACALVPN/ HTTP/1.1[crlf]Host: 186.233.119.143[crlf]Upgrade: websocket[crlf][crlf]",
 "SNI": "[app_host]",
@@ -68,7 +78,7 @@
 },
 
 {
-    "Name": "VIVO SECURITY 04 \n ✅ AGUARDAR CONECTAR",
+    "Name": "VIVO SECURITY 05 \n ✅ AGUARDAR CONECTAR",
 "FLAG": "vivo",
 "Payload": "ACL HTTP/1.1 Host: plus.google.com \r\n \r\n",
 "SNI": "209.14.71.245",
@@ -78,7 +88,7 @@
 "Info": "Proxy"
 },
   {
-     "Name": "VIVO SECURITY 05 \n ✅ AGUARDAR CONECTAR",
+     "Name": "VIVO SECURITY 06 \n ✅ AGUARDAR CONECTAR",
             "FLAG": "vivo",
             "Payload": "CONNECT [host_port] [protocol][crlf][crlf]",
             "SNI": "",
@@ -88,7 +98,7 @@
              "Info": "Proxy"
         },
         {
-      "Name": "🟣 VIVO Front 06 \n ✅ AGUARDAR CONECTAR ",
+      "Name": "🟣 VIVO Front 07 \n ✅ AGUARDAR CONECTAR ",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
       "SNI": "",
