@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.70",
+  "Version": "1.0.71",
   "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -107,16 +107,16 @@
       "ProxyPort": "80",
       "Info": "Proxy"
    },
-        {
-    "Name": "TIM 01 \n ✅ AGUARDAR CONECTAR",
+{
+      "Name": "TIM NOVA",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1\nHost: api.sandbox.c6bank.com.br\nExpect: 100-continue\n\n[split]\n\nACL /?/ HTTP/1.1\nHost: [app_host]\nExpect: 100-continue\nUpgrade: websocket\nUser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\n\n",
+      "Payload": "CONNECT / HTTP/1.9[crlf]host: pre-onboarding-p.c6bank.app[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: ryck.online[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.19.239.25",
+      "ProxyIP": "pre-onboarding-p.c6bank.app",
       "ProxyPort": "80",
-      "Info": "Proxy"
-  },
+      "Info": "Proxy"	
+   },
   {
     "Name": "TIM 02 \n ✅ AGUARDAR CONECTAR",
       "FLAG": "tim",
