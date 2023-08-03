@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.74",
+  "Version": "1.0.75",
   "ReleaseNotes": "ATUALIZAÇÃO 02/08",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -36,19 +36,8 @@
 
     ],
   "Networks": [
-
-        {
-      "Name": "VIVO 01 ✅ AGUARDAR CONECTAR ",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "108.139.166.55/",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-   },
 {
-      "Name": "VIVO 03 \n ✅ AGUARDAR CONECTAR ",
+      "Name": "VIVO 01 \n ✅ AGUARDAR CONECTAR ",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
       "SNI": "",
