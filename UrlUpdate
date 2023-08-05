@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.75",
-  "ReleaseNotes": "ATUALIZAÇÃO 02/08",
+  "Version": "1.0.72",
+  "ReleaseNotes": "POR FAVOR CLIQUE EM ATUALIZAR 😉",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "",
@@ -36,13 +36,14 @@
 
     ],
   "Networks": [
-{
-      "Name": "VIVO 01 \n ✅ AGUARDAR CONECTAR ",
+
+        {
+      "Name": "VIVO 01 ✅ AGUARDAR CONECTAR ",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "108.139.166.13",
+      "ProxyIP": "13.33.131.6",
       "ProxyPort": "80",
       "Info": "Proxy"
    },
@@ -52,8 +53,18 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "13.33.131.6",
+      "ProxyIP": "108.139.166.13",
       "ProxyPort": "80",
+      "Info": "Proxy"
+   },
+   {
+      "Name": "VIVO SOMENTE NO H+ \n ✅ AGUARDAR CONECTAR ",
+      "FLAG": "vivo",
+      "Payload": "[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.71.245",
+      "ProxyPort": "8080",
       "Info": "Proxy"
    },
 {
@@ -94,6 +105,16 @@
       "TlsIP": "",
       "ProxyIP": "[app_host]",
       "ProxyPort": "80",
+      "Info": "Proxy"
+   },
+   {
+      "Name": "TESTE TIM",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "frontend-tim-recarga-client.m4u.com.br",
+      "ProxyPort": "443",
       "Info": "Proxy"
    },
   ]
