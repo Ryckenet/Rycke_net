@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.73",
+  "Version": "1.0.74",
   "ReleaseNotes": "Nova atualização disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••• ••••••••••••••••••••••\n🆚 Versão: \n••••••••••••••••••• ••••••••••••••••••••••••••••\n🔰Funcionando 💙 TIM 💜VIVO\n=========== ====================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\ n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\ n🙋🏻‍♂️ Com Suporte….",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -43,7 +43,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "13.33.131.6",
+      "ProxyIP": "52.85.213.82",
       "ProxyPort": "80",
       "Info": "Proxy"
    },
@@ -58,7 +58,7 @@
       "Info": "Proxy"
    },
    {
-      "Name": "VIVO SOMENTE NO H+ \n ✅ AGUARDAR CONECTAR ",
+      "Name": "VIVO 03 SOMENTE NO H+ \n ✅ AGUARDAR CONECTAR ",
       "FLAG": "vivo",
       "Payload": "[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
       "SNI": "",
