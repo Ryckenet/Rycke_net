@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.74",
-  "ReleaseNotes": "Nova atualização disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••• ••••••••••••••••••••••\n🆚 Versão: \n••••••••••••••••••• ••••••••••••••••••••••••••••\n🔰Funcionando 💙 TIM 💜VIVO\n=========== ====================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\ n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\ n🙋🏻‍♂️ Com Suporte….",
+  "Version": "1.0.75",
+  "ReleaseNotes": "Nova atualização disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••• ••••••••••••••••••••••\n🆚 Versão:1.0.75 \n••••••••••••••••••• ••••••••••••••••••••••••••••\n🔰Funcionando 💙 TIM 💜VIVO\n=========== ====================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\ n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\ n🙋🏻‍♂️ Com Suporte….",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "",
@@ -38,7 +38,7 @@
   "Networks": [
 
         {
-      "Name": "VIVO 01 ✅ AGUARDAR CONECTAR ",
+      "Name": "VIVO 01 \n ✅ AGUARDAR CONECTAR ",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
       "SNI": "",
