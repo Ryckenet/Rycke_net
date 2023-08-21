@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.78",
-  "ReleaseNotes": "Nova atualização disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••• ••••••••••••••••••••••\n🆚 Versão:1.0.78 \n••••••••••••••••••• ••••••••••••••••••••••••••••\n🔰Funcionando 💙 TIM 💜VIVO\n=========== ====================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\ n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\ n🙋🏻‍♂️ Com Suporte….",
+  "Version": "1.0.79",
+  "ReleaseNotes": "Nova atualização disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••• ••••••••••••••••••••••\n🆚 Versão:1.0.79 \n••••••••••••••••••• ••••••••••••••••••••••••••••\n🔰Funcionando 💙 TIM 💜VIVO\n=========== ====================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\ n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\ n🙋🏻‍♂️ Com Suporte….",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "",
@@ -47,38 +47,38 @@
       "Info": "Proxy"
    },
 {
-            "Name": "VIVO 01 \n ✅ AGUARDAR CONECTAR",
+            "Name": "VIVO 02 \n ✅ AGUARDAR CONECTAR",
             "FLAG": "vivo",
             "Payload": "[delay_split][lf]GET / 55",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "209.14.71.245",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-    },
-    {
-            "Name": "VIVO 02 \n ✅ AGUARDAR CONECTAR",
-            "FLAG": "vivo",
-            "Payload": "[delay_split] GET / HTTP/2[crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "209.14.71.245",
-            "ProxyPort": "80",
+            "ProxyPort": "8080",
             "Info": "Proxy"
     },
     {
             "Name": "VIVO 03 \n ✅ AGUARDAR CONECTAR",
             "FLAG": "vivo",
+            "Payload": "[delay_split] GET / HTTP/2[crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.71.245",
+            "ProxyPort": "8080",
+            "Info": "Proxy"
+    },
+    {
+            "Name": "VIVO 04 \n ✅ AGUARDAR CONECTAR",
+            "FLAG": "vivo",
             "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "209.14.71.245",
-            "ProxyPort": "80",
+            "ProxyPort": "8080",
             "Info": "Proxy"
     },
 
         {
-      "Name": "VIVO 04 OF \n ✅ AGUARDAR CONECTAR ",
+      "Name": "VIVO 05 OF \n ✅ AGUARDAR CONECTAR ",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
       "SNI": "",
@@ -88,7 +88,7 @@
       "Info": "Proxy"
    },
 {
-      "Name": "VIVO 05 OF \n ✅ AGUARDAR CONECTAR ",
+      "Name": "VIVO 06 OF \n ✅ AGUARDAR CONECTAR ",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
       "SNI": "",
