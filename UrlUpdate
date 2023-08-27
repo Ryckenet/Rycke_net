@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.79",
+  "Version": "1.0.80",
   "ReleaseNotes": "Nova atualização disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••• ••••••••••••••••••••••\n🆚 Versão:1.0.79 \n••••••••••••••••••• ••••••••••••••••••••••••••••\n🔰Funcionando 💙 TIM 💜VIVO\n=========== ====================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\ n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\ n🙋🏻‍♂️ Com Suporte….",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
@@ -26,7 +26,7 @@
       "Name": "SERVIDOR 1",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "ryck.online",
+      "ServerIP": "rycke.apontamentoamigo.online",
       "CheckUser":"http://209.14.71.245:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -126,17 +126,15 @@
        "ProxyIP": "::ffff:104.19.240.93",
        "ProxyPort": "80",
        "Info": "Proxy"
-    },
     {
-      "Name": "TIM 14/08/23-1",
-       "FLAG": "tim",
-       "Payload": "GET / HTTP/1.1[crlf]Host: no.descomplica.com.br[crlf][crlf][split]GET-TOPSPEED / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]",
-       "SNI": "",
-       "TlsIP": "",
-       "ProxyIP": "::ffff:104.19.241.93",
-       "ProxyPort": "80",
-       "Info": "Proxy"
-    },
-
+     "Name":"╰┈[☞>📱TESTE TIM CLOUDFLARE  28/08",
+     "FLAG": "tim",
+     "Payload": "CONNECT wss://no.descomplica.com.br/ HTTP/1.1[crlf]Host: vdd[crlf][crlf][split][crlf][crlf]GET-TOPSPEED / HTTP/1.1[crlf]Host: rycke.apontamentoamigo.online [crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "104.16.51.111",
+     "ProxyPort": "80",
+     "Info": "Proxy" 
+    } ,
   ]
 }
