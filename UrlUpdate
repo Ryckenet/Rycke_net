@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.80",
-  "ReleaseNotes": "Nova atualização disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••• ••••••••••••••••••••••\n🆚 Versão:1.0.79 \n••••••••••••••••••• ••••••••••••••••••••••••••••\n🔰Funcionando 💙 TIM 💜VIVO\n=========== ====================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\ n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\ n🙋🏻‍♂️ Com Suporte….",
+  "Version": "1.0.81",
+  "ReleaseNotes": "Nova atualização disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••• ••••••••••••••••••••••\n🆚 Versão:1.0.81 \n••••••••••••••••••• ••••••••••••••••••••••••••••\n🔰Funcionando 💙 TIM 💜VIVO\n=========== ====================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\ n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\ n🙋🏻‍♂️ Com Suporte….",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "",
@@ -43,7 +43,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.71.245",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
    },
 {
@@ -53,7 +53,7 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "209.14.71.245",
-            "ProxyPort": "8080",
+            "ProxyPort": "80",
             "Info": "Proxy"
     },
     {
@@ -63,7 +63,7 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "209.14.71.245",
-            "ProxyPort": "8080",
+            "ProxyPort": "80",
             "Info": "Proxy"
     },
     {
@@ -73,30 +73,9 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "209.14.71.245",
-            "ProxyPort": "8080",
+            "ProxyPort": "80",
             "Info": "Proxy"
     },
-
-        {
-      "Name": "VIVO 05 OF \n ✅ AGUARDAR CONECTAR ",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "65.8.214.123",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-   },
-{
-      "Name": "VIVO 06 OF \n ✅ AGUARDAR CONECTAR ",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d3cbuiqm3x02ko.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Accept-Encoding: gzip, chunked[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "209.14.71.245",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-   },
     {
       "Name": " TIM Valido 01 \n ✅ AGUARDAR CONECTAR ",
        "FLAG": "tim",
