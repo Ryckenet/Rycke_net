@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.87",
-  "ReleaseNotes": "Nova atualização disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••• ••••••••••••••••••••••\n🆚 Versão:1.0.87 \n••••••••••••••••••• ••••••••••••••••••••••••••••\n🔰Funcionando 💙 TIM 💜VIVO\n=========== ====================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\ n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\ n🙋🏻‍♂️ Com Suporte….",
+  "Version": "1.0.89",
+  "ReleaseNotes": "Nova atualização disponível 🦸🏻 \n\n MANTENHA O APLICATIVO \n SEMPRE ATUALIZANDO 📱\n •••••••••••••••••••••••••• ••••••••••••••••••••••\n🆚 Versão:1.0.89 \n••••••••••••••••••• ••••••••••••••••••••••••••••\n🔰Funcionando 💙 TIM 💜VIVO\n=========== ====================\n🗣️ Uma dica, recomendo ter dois chip\n🤖 Caso uma rede caia vc tem a outra\n🤖 Para se conectar tranquilamente✔️\ n===============================\n🧑🏻‍💻 Qualquer dificuldade para se\n📱 Conectar entre em contato\ n🙋🏻‍♂️ Com Suporte….",
   "UrlUpdate": "https://raw.githubusercontent.com/Ryckenet/Rycke_net/main/UrlUpdate",
   "Sms": "",
   "EmailFeedback": "",
@@ -43,7 +43,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.71.245",
-      "ProxyPort": "80",
+      "ProxyPort": "8080",
       "Info": "Proxy"
    },
 {
@@ -53,7 +53,7 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "209.14.71.245",
-            "ProxyPort": "80",
+            "ProxyPort": "8080",
             "Info": "Proxy"
     },
     {
@@ -73,7 +73,7 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "209.14.71.245",
-            "ProxyPort": "80",
+            "ProxyPort": "8080",
             "Info": "Proxy"
     },
     {
